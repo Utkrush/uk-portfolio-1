@@ -1,0 +1,58 @@
+#hero{
+    background-color: #A2FF86;
+}
+
+
+#profile{
+    background-color: #D3D04F;
+}
+
+
+#skills{
+    background-color: #FDFFAE;
+}
+
+
+#abm{
+    background-color: #978dbb;
+}
+
+
+#ctm{
+    background-color: #FBD85D;
+}
+
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.profile-img{
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10%;
+}
+
+.skills{
+    gap: 30%;
+}
+
+.feature{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15%;
+}
+
+.abm{
+    flex-direction: column;
+}
+
+.ctm{
+    flex-direction: column;
+    padding: 50px;
+}
